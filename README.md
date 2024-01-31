@@ -81,3 +81,7 @@ python your_script.py -m 10 -b https://example.com -o output/visited_links.txt -
 ```
 
 This command will start the web crawler with a maximum of 10 URLs, using "https://example.com" as the base URL, saving visited URLs to "output/visited_links.txt" and storing them in an SQLite database at "output/visited_links.db". The crawler will use 8 threads for parallel crawling with a politeness delay of 3 seconds between requests.
+
+## Contributors
+
+[Eliott Bourrigan](https://github.com/eliottbourrigan/)
