@@ -10,7 +10,7 @@ from utils.pagedownloader import download_page
 from utils.linksextractor import extract_links
 
 class WebCrawler:
-    def __init__(self, base_url, max_urls=50, n_threads=1, politeness_delay=3):
+    def __init__(self, base_url, max_urls=50, n_threads=1, politeness_delay=3, max_url_per_page=5):
         """
         Initializes the WebCrawler.
         """
@@ -21,6 +21,8 @@ class WebCrawler:
         self.visited_sitemaps = set()
         self.n_threads = n_threads
         self.robots_parsers = {}
+        self.politeness_delay = politeness_delay
+        self.max_url_per_page = max_url_per_page
 
         logging.info(f"Initialized WebCrawler with base URL {base_url} and {max_urls} max URLs.")
 
@@ -119,7 +121,7 @@ class WebCrawler:
             return
 
         # Download the page
-        page_content = download_page(current_url)
+        page_content = download_page(current_url)[:self.max_url_per_page]
         logging.info(f"{thread_prefix}Downloading HTML from {current_url}.")
 
         if page_content:
