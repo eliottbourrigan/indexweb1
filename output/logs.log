@@ -1,57 +1,191 @@
-2024-01-31 15:28:12,417 - INFO - Initialized WebCrawler with base URL https://ensai.fr and 10 max URLs.
-2024-01-31 15:28:12,418 - INFO - Starting 1 thread(s)...
-2024-01-31 15:28:12,419 - INFO - [Thread 1/1] Checking if https://ensai.fr can be crawled.
-2024-01-31 15:28:12,634 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/sitemap_index.xml. Parsing sitemap...
-2024-01-31 15:28:13,090 - INFO - [Thread 1/1] Found 7 URLs in the sitemap https://ensai.fr/sitemap_index.xml.
-2024-01-31 15:28:13,090 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/post-sitemap.xml. Parsing sitemap...
-2024-01-31 15:28:13,955 - INFO - [Thread 1/1] Found 302 URLs in the sitemap https://ensai.fr/post-sitemap.xml.
-2024-01-31 15:28:13,955 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/page-sitemap.xml. Parsing sitemap...
-2024-01-31 15:28:14,591 - INFO - [Thread 1/1] Found 191 URLs in the sitemap https://ensai.fr/page-sitemap.xml.
-2024-01-31 15:28:14,591 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/partenaire-sitemap.xml. Parsing sitemap...
-2024-01-31 15:28:14,904 - INFO - [Thread 1/1] Found 88 URLs in the sitemap https://ensai.fr/partenaire-sitemap.xml.
-2024-01-31 15:28:14,904 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/equipe-sitemap.xml. Parsing sitemap...
-2024-01-31 15:28:15,698 - INFO - [Thread 1/1] Found 85 URLs in the sitemap https://ensai.fr/equipe-sitemap.xml.
-2024-01-31 15:28:15,698 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/faq-sitemap.xml. Parsing sitemap...
-2024-01-31 15:28:16,170 - INFO - [Thread 1/1] Found 50 URLs in the sitemap https://ensai.fr/faq-sitemap.xml.
-2024-01-31 15:28:16,170 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/colloque-sitemap.xml. Parsing sitemap...
-2024-01-31 15:28:16,420 - INFO - [Thread 1/1] Found 6 URLs in the sitemap https://ensai.fr/colloque-sitemap.xml.
-2024-01-31 15:28:16,420 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/category-sitemap.xml. Parsing sitemap...
-2024-01-31 15:28:17,000 - INFO - [Thread 1/1] Found 10 URLs in the sitemap https://ensai.fr/category-sitemap.xml.
-2024-01-31 15:28:17,771 - INFO - [Thread 1/1] Downloading HTML from https://ensai.fr.
-2024-01-31 15:28:17,864 - INFO - [Thread 1/1] Successfully downloaded HTML/XML from https://ensai.fr. Added 59 new links.
-2024-01-31 15:28:17,864 - INFO - Waiting for 3 seconds to respect the politeness policy...
-2024-01-31 15:28:20,877 - INFO - Starting 3 thread(s)...
-2024-01-31 15:28:20,879 - INFO - [Thread 1/3] Checking if https://ensai.fr/etudier-espagne-erasmus-madrid/ can be crawled.
-2024-01-31 15:28:20,879 - INFO - [Thread 2/3] Checking if https://ensai.fr/double-diplome-universite-rome-sapienza/ can be crawled.
-2024-01-31 15:28:20,879 - INFO - [Thread 3/3] Checking if https://ensai.fr/international-label-campus-france/ can be crawled.
-2024-01-31 15:28:21,538 - INFO - [Thread 2/3] Downloading HTML from https://ensai.fr/double-diplome-universite-rome-sapienza/.
-2024-01-31 15:28:21,600 - INFO - [Thread 2/3] Successfully downloaded HTML/XML from https://ensai.fr/double-diplome-universite-rome-sapienza/. Added 12 new links.
-2024-01-31 15:28:21,600 - INFO - [Thread 3/3] Downloading HTML from https://ensai.fr/international-label-campus-france/.
-2024-01-31 15:28:21,663 - INFO - [Thread 3/3] Successfully downloaded HTML/XML from https://ensai.fr/international-label-campus-france/. Added 7 new links.
-2024-01-31 15:28:21,663 - INFO - [Thread 1/3] Downloading HTML from https://ensai.fr/etudier-espagne-erasmus-madrid/.
-2024-01-31 15:28:21,709 - INFO - [Thread 1/3] Successfully downloaded HTML/XML from https://ensai.fr/etudier-espagne-erasmus-madrid/. Added 7 new links.
-2024-01-31 15:28:21,709 - INFO - Waiting for 3 seconds to respect the politeness policy...
-2024-01-31 15:28:24,711 - INFO - Starting 3 thread(s)...
-2024-01-31 15:28:24,711 - INFO - [Thread 1/3] Checking if https://ensai.fr/le-campus-un-ecrin-de-nature/ can be crawled.
-2024-01-31 15:28:24,711 - INFO - [Thread 2/3] Checking if https://ensai.fr/faculty-positions-at-ensai/ can be crawled.
-2024-01-31 15:28:24,711 - INFO - [Thread 3/3] Checking if https://ensai.fr/billet-pourquoi-linflation-europeenne-est-elle-si-faible/ can be crawled.
-2024-01-31 15:28:25,370 - INFO - [Thread 3/3] Downloading HTML from https://ensai.fr/billet-pourquoi-linflation-europeenne-est-elle-si-faible/.
-2024-01-31 15:28:25,370 - INFO - [Thread 2/3] Downloading HTML from https://ensai.fr/faculty-positions-at-ensai/.
-2024-01-31 15:28:25,448 - INFO - [Thread 3/3] Successfully downloaded HTML/XML from https://ensai.fr/billet-pourquoi-linflation-europeenne-est-elle-si-faible/. Added 10 new links.
-2024-01-31 15:28:25,480 - INFO - [Thread 2/3] Successfully downloaded HTML/XML from https://ensai.fr/faculty-positions-at-ensai/. Added 8 new links.
-2024-01-31 15:28:25,480 - INFO - [Thread 1/3] Downloading HTML from https://ensai.fr/le-campus-un-ecrin-de-nature/.
-2024-01-31 15:28:25,526 - INFO - [Thread 1/3] Successfully downloaded HTML/XML from https://ensai.fr/le-campus-un-ecrin-de-nature/. Added 13 new links.
-2024-01-31 15:28:25,526 - INFO - Waiting for 3 seconds to respect the politeness policy...
-2024-01-31 15:28:28,537 - INFO - Starting 3 thread(s)...
-2024-01-31 15:28:28,538 - INFO - [Thread 1/3] Checking if https://ensai.fr/guerres-commerciales-le-billet-economique-de-stephane-auray-et-aurelien-eyquem/ can be crawled.
-2024-01-31 15:28:28,540 - INFO - [Thread 2/3] Checking if https://ensai.fr/position-in-applied-econometrics/ can be crawled.
-2024-01-31 15:28:28,542 - INFO - [Thread 3/3] Checking if https://ensai.fr/position-in-computer-science-at-ensai/ can be crawled.
-2024-01-31 15:28:29,268 - INFO - [Thread 1/3] Downloading HTML from https://ensai.fr/guerres-commerciales-le-billet-economique-de-stephane-auray-et-aurelien-eyquem/.
-2024-01-31 15:28:29,358 - INFO - [Thread 2/3] Downloading HTML from https://ensai.fr/position-in-applied-econometrics/.
-2024-01-31 15:28:29,465 - INFO - [Thread 1/3] Successfully downloaded HTML/XML from https://ensai.fr/guerres-commerciales-le-billet-economique-de-stephane-auray-et-aurelien-eyquem/. Added 6 new links.
-2024-01-31 15:28:29,495 - INFO - [Thread 2/3] Successfully downloaded HTML/XML from https://ensai.fr/position-in-applied-econometrics/. Added 5 new links.
-2024-01-31 15:28:29,501 - INFO - [Thread 3/3] Downloading HTML from https://ensai.fr/position-in-computer-science-at-ensai/.
-2024-01-31 15:28:29,627 - INFO - [Thread 3/3] Successfully downloaded HTML/XML from https://ensai.fr/position-in-computer-science-at-ensai/. Added 5 new links.
-2024-01-31 15:28:29,629 - INFO - Waiting for 3 seconds to respect the politeness policy...
-2024-01-31 15:28:32,633 - INFO - Successfully saved 10 URLs to output/visited_urls.txt.
-2024-01-31 15:28:32,743 - INFO - Successfully saved 10 URLs to output/visited_urls.db.
+2024-01-31 15:58:31,990 - INFO - Initialized WebCrawler with base URL https://ensai.fr and 50 max URLs.
+2024-01-31 15:58:31,990 - INFO - Starting 1 thread(s)...
+2024-01-31 15:58:31,990 - INFO - [Thread 1/1] Checking if https://ensai.fr can be crawled.
+2024-01-31 15:58:32,241 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/sitemap_index.xml. Parsing sitemap...
+2024-01-31 15:58:33,780 - INFO - [Thread 1/1] Found 7 URLs in the sitemap https://ensai.fr/sitemap_index.xml.
+2024-01-31 15:58:33,780 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/post-sitemap.xml. Parsing sitemap...
+2024-01-31 15:58:34,738 - INFO - [Thread 1/1] Found 302 URLs in the sitemap https://ensai.fr/post-sitemap.xml.
+2024-01-31 15:58:34,739 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/page-sitemap.xml. Parsing sitemap...
+2024-01-31 15:58:35,402 - INFO - [Thread 1/1] Found 191 URLs in the sitemap https://ensai.fr/page-sitemap.xml.
+2024-01-31 15:58:35,402 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/partenaire-sitemap.xml. Parsing sitemap...
+2024-01-31 15:58:35,742 - INFO - [Thread 1/1] Found 88 URLs in the sitemap https://ensai.fr/partenaire-sitemap.xml.
+2024-01-31 15:58:35,745 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/equipe-sitemap.xml. Parsing sitemap...
+2024-01-31 15:58:36,093 - INFO - [Thread 1/1] Found 85 URLs in the sitemap https://ensai.fr/equipe-sitemap.xml.
+2024-01-31 15:58:36,093 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/faq-sitemap.xml. Parsing sitemap...
+2024-01-31 15:58:36,396 - INFO - [Thread 1/1] Found 50 URLs in the sitemap https://ensai.fr/faq-sitemap.xml.
+2024-01-31 15:58:36,398 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/colloque-sitemap.xml. Parsing sitemap...
+2024-01-31 15:58:36,661 - INFO - [Thread 1/1] Found 6 URLs in the sitemap https://ensai.fr/colloque-sitemap.xml.
+2024-01-31 15:58:36,662 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/category-sitemap.xml. Parsing sitemap...
+2024-01-31 15:58:36,919 - INFO - [Thread 1/1] Found 10 URLs in the sitemap https://ensai.fr/category-sitemap.xml.
+2024-01-31 15:58:37,580 - INFO - [Thread 1/1] Downloading HTML from https://ensai.fr.
+2024-01-31 15:58:37,581 - INFO - [Thread 1/1] Successfully downloaded HTML/XML from https://ensai.fr. Added 0 new links.
+2024-01-31 15:58:37,582 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:58:42,590 - INFO - Starting 5 thread(s)...
+2024-01-31 15:58:42,590 - INFO - [Thread 1/5] Checking if https://ensai.fr/etudier-espagne-erasmus-madrid/ can be crawled.
+2024-01-31 15:58:42,590 - INFO - [Thread 2/5] Checking if https://ensai.fr/double-diplome-universite-rome-sapienza/ can be crawled.
+2024-01-31 15:58:42,590 - INFO - [Thread 3/5] Checking if https://ensai.fr/international-label-campus-france/ can be crawled.
+2024-01-31 15:58:42,598 - INFO - [Thread 4/5] Checking if https://ensai.fr/le-campus-un-ecrin-de-nature/ can be crawled.
+2024-01-31 15:58:42,600 - INFO - [Thread 5/5] Checking if https://ensai.fr/faculty-positions-at-ensai/ can be crawled.
+2024-01-31 15:58:43,360 - INFO - [Thread 1/5] Downloading HTML from https://ensai.fr/etudier-espagne-erasmus-madrid/.
+2024-01-31 15:58:43,360 - INFO - [Thread 1/5] Successfully downloaded HTML/XML from https://ensai.fr/etudier-espagne-erasmus-madrid/. Added 0 new links.
+2024-01-31 15:58:43,390 - INFO - [Thread 5/5] Downloading HTML from https://ensai.fr/faculty-positions-at-ensai/.
+2024-01-31 15:58:43,392 - INFO - [Thread 5/5] Successfully downloaded HTML/XML from https://ensai.fr/faculty-positions-at-ensai/. Added 0 new links.
+2024-01-31 15:58:43,426 - INFO - [Thread 3/5] Downloading HTML from https://ensai.fr/international-label-campus-france/.
+2024-01-31 15:58:43,426 - INFO - [Thread 3/5] Successfully downloaded HTML/XML from https://ensai.fr/international-label-campus-france/. Added 0 new links.
+2024-01-31 15:58:43,461 - INFO - [Thread 2/5] Downloading HTML from https://ensai.fr/double-diplome-universite-rome-sapienza/.
+2024-01-31 15:58:43,461 - INFO - [Thread 2/5] Successfully downloaded HTML/XML from https://ensai.fr/double-diplome-universite-rome-sapienza/. Added 0 new links.
+2024-01-31 15:58:43,478 - INFO - [Thread 4/5] Downloading HTML from https://ensai.fr/le-campus-un-ecrin-de-nature/.
+2024-01-31 15:58:43,479 - INFO - [Thread 4/5] Successfully downloaded HTML/XML from https://ensai.fr/le-campus-un-ecrin-de-nature/. Added 0 new links.
+2024-01-31 15:58:43,479 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:58:48,485 - INFO - Starting 5 thread(s)...
+2024-01-31 15:58:48,486 - INFO - [Thread 1/5] Checking if https://ensai.fr/billet-pourquoi-linflation-europeenne-est-elle-si-faible/ can be crawled.
+2024-01-31 15:58:48,488 - INFO - [Thread 2/5] Checking if https://ensai.fr/guerres-commerciales-le-billet-economique-de-stephane-auray-et-aurelien-eyquem/ can be crawled.
+2024-01-31 15:58:48,490 - INFO - [Thread 3/5] Checking if https://ensai.fr/position-in-applied-econometrics/ can be crawled.
+2024-01-31 15:58:48,493 - INFO - [Thread 4/5] Checking if https://ensai.fr/position-in-computer-science-at-ensai/ can be crawled.
+2024-01-31 15:58:48,498 - INFO - [Thread 5/5] Checking if https://ensai.fr/position-in-statistics-at-ensai/ can be crawled.
+2024-01-31 15:58:50,623 - INFO - [Thread 5/5] Downloading HTML from https://ensai.fr/position-in-statistics-at-ensai/.
+2024-01-31 15:58:50,625 - INFO - [Thread 5/5] Successfully downloaded HTML/XML from https://ensai.fr/position-in-statistics-at-ensai/. Added 0 new links.
+2024-01-31 15:58:50,632 - INFO - [Thread 1/5] Downloading HTML from https://ensai.fr/billet-pourquoi-linflation-europeenne-est-elle-si-faible/.
+2024-01-31 15:58:50,632 - INFO - [Thread 1/5] Successfully downloaded HTML/XML from https://ensai.fr/billet-pourquoi-linflation-europeenne-est-elle-si-faible/. Added 0 new links.
+2024-01-31 15:58:50,679 - INFO - [Thread 2/5] Downloading HTML from https://ensai.fr/guerres-commerciales-le-billet-economique-de-stephane-auray-et-aurelien-eyquem/.
+2024-01-31 15:58:50,679 - INFO - [Thread 2/5] Successfully downloaded HTML/XML from https://ensai.fr/guerres-commerciales-le-billet-economique-de-stephane-auray-et-aurelien-eyquem/. Added 0 new links.
+2024-01-31 15:58:50,699 - INFO - [Thread 4/5] Downloading HTML from https://ensai.fr/position-in-computer-science-at-ensai/.
+2024-01-31 15:58:50,699 - INFO - [Thread 4/5] Successfully downloaded HTML/XML from https://ensai.fr/position-in-computer-science-at-ensai/. Added 0 new links.
+2024-01-31 15:58:50,915 - INFO - [Thread 3/5] Downloading HTML from https://ensai.fr/position-in-applied-econometrics/.
+2024-01-31 15:58:50,917 - INFO - [Thread 3/5] Successfully downloaded HTML/XML from https://ensai.fr/position-in-applied-econometrics/. Added 0 new links.
+2024-01-31 15:58:50,918 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:58:55,922 - INFO - Starting 5 thread(s)...
+2024-01-31 15:58:55,924 - INFO - [Thread 1/5] Checking if https://ensai.fr/cybersecurite-cyberschool-ouvre-en-septembre-2020/ can be crawled.
+2024-01-31 15:58:55,926 - INFO - [Thread 2/5] Checking if https://ensai.fr/research-position-in-statistics-and-ai/ can be crawled.
+2024-01-31 15:58:55,928 - INFO - [Thread 3/5] Checking if https://ensai.fr/julie-boxe/ can be crawled.
+2024-01-31 15:58:55,930 - INFO - [Thread 4/5] Checking if https://ensai.fr/metiers-data-science-ensai/ can be crawled.
+2024-01-31 15:58:55,933 - INFO - [Thread 5/5] Checking if https://ensai.fr/point-concours/ can be crawled.
+2024-01-31 15:58:56,744 - INFO - [Thread 3/5] Downloading HTML from https://ensai.fr/julie-boxe/.
+2024-01-31 15:58:56,744 - INFO - [Thread 3/5] Successfully downloaded HTML/XML from https://ensai.fr/julie-boxe/. Added 0 new links.
+2024-01-31 15:58:56,759 - INFO - [Thread 2/5] Downloading HTML from https://ensai.fr/research-position-in-statistics-and-ai/.
+2024-01-31 15:58:56,759 - INFO - [Thread 2/5] Successfully downloaded HTML/XML from https://ensai.fr/research-position-in-statistics-and-ai/. Added 0 new links.
+2024-01-31 15:58:56,759 - INFO - [Thread 4/5] Downloading HTML from https://ensai.fr/metiers-data-science-ensai/.
+2024-01-31 15:58:56,775 - INFO - [Thread 4/5] Successfully downloaded HTML/XML from https://ensai.fr/metiers-data-science-ensai/. Added 0 new links.
+2024-01-31 15:58:56,775 - INFO - [Thread 1/5] Downloading HTML from https://ensai.fr/cybersecurite-cyberschool-ouvre-en-septembre-2020/.
+2024-01-31 15:58:56,775 - INFO - [Thread 1/5] Successfully downloaded HTML/XML from https://ensai.fr/cybersecurite-cyberschool-ouvre-en-septembre-2020/. Added 0 new links.
+2024-01-31 15:58:56,775 - INFO - [Thread 5/5] Downloading HTML from https://ensai.fr/point-concours/.
+2024-01-31 15:58:56,775 - INFO - [Thread 5/5] Successfully downloaded HTML/XML from https://ensai.fr/point-concours/. Added 0 new links.
+2024-01-31 15:58:56,775 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:59:01,800 - INFO - Starting 5 thread(s)...
+2024-01-31 15:59:01,801 - INFO - [Thread 1/5] Checking if https://ensai.fr/ouverture-des-admissions-sur-titre/ can be crawled.
+2024-01-31 15:59:01,802 - INFO - [Thread 2/5] Checking if https://ensai.fr/ouverture-des-candidatures-ast-etrangers/ can be crawled.
+2024-01-31 15:59:01,803 - INFO - [Thread 3/5] Checking if https://ensai.fr/disneyland-paris-et-lensai-signent-un-partenariat/ can be crawled.
+2024-01-31 15:59:01,805 - INFO - [Thread 4/5] Checking if https://ensai.fr/actu-test/ can be crawled.
+2024-01-31 15:59:01,807 - INFO - [Thread 5/5] Checking if https://ensai.fr/en/aiworldwide-first/ can be crawled.
+2024-01-31 15:59:02,579 - INFO - [Thread 1/5] Downloading HTML from https://ensai.fr/ouverture-des-admissions-sur-titre/.
+2024-01-31 15:59:02,581 - INFO - [Thread 4/5] Downloading HTML from https://ensai.fr/actu-test/.
+2024-01-31 15:59:02,582 - INFO - [Thread 1/5] Successfully downloaded HTML/XML from https://ensai.fr/ouverture-des-admissions-sur-titre/. Added 0 new links.
+2024-01-31 15:59:02,583 - INFO - [Thread 4/5] Successfully downloaded HTML/XML from https://ensai.fr/actu-test/. Added 0 new links.
+2024-01-31 15:59:02,593 - INFO - [Thread 5/5] Downloading HTML from https://ensai.fr/en/aiworldwide-first/.
+2024-01-31 15:59:02,594 - INFO - [Thread 5/5] Successfully downloaded HTML/XML from https://ensai.fr/en/aiworldwide-first/. Added 0 new links.
+2024-01-31 15:59:02,635 - INFO - [Thread 3/5] Downloading HTML from https://ensai.fr/disneyland-paris-et-lensai-signent-un-partenariat/.
+2024-01-31 15:59:02,636 - INFO - [Thread 3/5] Successfully downloaded HTML/XML from https://ensai.fr/disneyland-paris-et-lensai-signent-un-partenariat/. Added 0 new links.
+2024-01-31 15:59:02,640 - INFO - [Thread 2/5] Downloading HTML from https://ensai.fr/ouverture-des-candidatures-ast-etrangers/.
+2024-01-31 15:59:02,640 - INFO - [Thread 2/5] Successfully downloaded HTML/XML from https://ensai.fr/ouverture-des-candidatures-ast-etrangers/. Added 0 new links.
+2024-01-31 15:59:02,640 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:59:07,650 - INFO - Starting 5 thread(s)...
+2024-01-31 15:59:07,650 - INFO - [Thread 1/5] Checking if https://ensai.fr/lensai-partenaire-des-eur-rennaises-cyberschool-et-digisport/ can be crawled.
+2024-01-31 15:59:07,650 - INFO - [Thread 2/5] Checking if https://ensai.fr/orange-et-lensai-partenaires/ can be crawled.
+2024-01-31 15:59:07,650 - INFO - [Thread 3/5] Checking if https://ensai.fr/stephane-auray-trump-franceinfo/ can be crawled.
+2024-01-31 15:59:07,650 - INFO - [Thread 4/5] Checking if https://ensai.fr/etudier-erasmus-school-economics/ can be crawled.
+2024-01-31 15:59:07,666 - INFO - [Thread 5/5] Checking if https://ensai.fr/ensai-les-indicateurs-2020/ can be crawled.
+2024-01-31 15:59:08,504 - INFO - [Thread 4/5] Downloading HTML from https://ensai.fr/etudier-erasmus-school-economics/.
+2024-01-31 15:59:08,504 - INFO - [Thread 4/5] Successfully downloaded HTML/XML from https://ensai.fr/etudier-erasmus-school-economics/. Added 0 new links.
+2024-01-31 15:59:08,539 - INFO - [Thread 1/5] Downloading HTML from https://ensai.fr/lensai-partenaire-des-eur-rennaises-cyberschool-et-digisport/.
+2024-01-31 15:59:08,540 - INFO - [Thread 1/5] Successfully downloaded HTML/XML from https://ensai.fr/lensai-partenaire-des-eur-rennaises-cyberschool-et-digisport/. Added 0 new links.
+2024-01-31 15:59:08,571 - INFO - [Thread 2/5] Downloading HTML from https://ensai.fr/orange-et-lensai-partenaires/.
+2024-01-31 15:59:08,571 - INFO - [Thread 2/5] Successfully downloaded HTML/XML from https://ensai.fr/orange-et-lensai-partenaires/. Added 0 new links.
+2024-01-31 15:59:08,607 - INFO - [Thread 5/5] Downloading HTML from https://ensai.fr/ensai-les-indicateurs-2020/.
+2024-01-31 15:59:08,607 - INFO - [Thread 5/5] Successfully downloaded HTML/XML from https://ensai.fr/ensai-les-indicateurs-2020/. Added 0 new links.
+2024-01-31 15:59:08,803 - INFO - [Thread 3/5] Downloading HTML from https://ensai.fr/stephane-auray-trump-franceinfo/.
+2024-01-31 15:59:08,804 - INFO - [Thread 3/5] Successfully downloaded HTML/XML from https://ensai.fr/stephane-auray-trump-franceinfo/. Added 0 new links.
+2024-01-31 15:59:08,805 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:59:13,818 - INFO - Starting 5 thread(s)...
+2024-01-31 15:59:13,819 - INFO - [Thread 1/5] Checking if https://ensai.fr/data-science-marketing-digital/ can be crawled.
+2024-01-31 15:59:13,820 - INFO - [Thread 2/5] Checking if https://ensai.fr/les-statistiques-pour-evaluer-les-politiques-publiques/ can be crawled.
+2024-01-31 15:59:13,822 - INFO - [Thread 3/5] Checking if https://ensai.fr/charges-diversite-egalite/ can be crawled.
+2024-01-31 15:59:13,822 - INFO - [Thread 4/5] Checking if https://ensai.fr/statisticien-public/ can be crawled.
+2024-01-31 15:59:13,832 - INFO - [Thread 5/5] Checking if https://ensai.fr/candidatures-masters/ can be crawled.
+2024-01-31 15:59:14,590 - INFO - [Thread 3/5] Downloading HTML from https://ensai.fr/charges-diversite-egalite/.
+2024-01-31 15:59:14,590 - INFO - [Thread 3/5] Successfully downloaded HTML/XML from https://ensai.fr/charges-diversite-egalite/. Added 0 new links.
+2024-01-31 15:59:14,611 - INFO - [Thread 2/5] Downloading HTML from https://ensai.fr/les-statistiques-pour-evaluer-les-politiques-publiques/.
+2024-01-31 15:59:14,612 - INFO - [Thread 2/5] Successfully downloaded HTML/XML from https://ensai.fr/les-statistiques-pour-evaluer-les-politiques-publiques/. Added 0 new links.
+2024-01-31 15:59:14,617 - INFO - [Thread 1/5] Downloading HTML from https://ensai.fr/data-science-marketing-digital/.
+2024-01-31 15:59:14,617 - INFO - [Thread 1/5] Successfully downloaded HTML/XML from https://ensai.fr/data-science-marketing-digital/. Added 0 new links.
+2024-01-31 15:59:14,637 - INFO - [Thread 5/5] Downloading HTML from https://ensai.fr/candidatures-masters/.
+2024-01-31 15:59:14,640 - INFO - [Thread 4/5] Downloading HTML from https://ensai.fr/statisticien-public/.
+2024-01-31 15:59:14,640 - INFO - [Thread 5/5] Successfully downloaded HTML/XML from https://ensai.fr/candidatures-masters/. Added 0 new links.
+2024-01-31 15:59:14,640 - INFO - [Thread 4/5] Successfully downloaded HTML/XML from https://ensai.fr/statisticien-public/. Added 0 new links.
+2024-01-31 15:59:14,640 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:59:19,643 - INFO - Starting 5 thread(s)...
+2024-01-31 15:59:19,643 - INFO - [Thread 1/5] Checking if https://ensai.fr/ms-data-science-pour-la-connaissance-client/ can be crawled.
+2024-01-31 15:59:19,643 - INFO - [Thread 2/5] Checking if https://ensai.fr/prix-meilleur-projet-tutore-sfds/ can be crawled.
+2024-01-31 15:59:19,643 - INFO - [Thread 3/5] Checking if https://ensai.fr/challenge-digital-transformer/ can be crawled.
+2024-01-31 15:59:19,643 - INFO - [Thread 4/5] Checking if https://ensai.fr/programmes-ingenieur-et-statisticien-public/ can be crawled.
+2024-01-31 15:59:19,643 - INFO - [Thread 5/5] Checking if https://ensai.fr/bancassurance-le-boom-de-la-data-profite-aux-ensaiens/ can be crawled.
+2024-01-31 15:59:21,194 - INFO - [Thread 3/5] Downloading HTML from https://ensai.fr/challenge-digital-transformer/.
+2024-01-31 15:59:21,194 - INFO - [Thread 3/5] Successfully downloaded HTML/XML from https://ensai.fr/challenge-digital-transformer/. Added 0 new links.
+2024-01-31 15:59:21,225 - INFO - [Thread 1/5] Downloading HTML from https://ensai.fr/ms-data-science-pour-la-connaissance-client/.
+2024-01-31 15:59:21,238 - INFO - [Thread 1/5] Successfully downloaded HTML/XML from https://ensai.fr/ms-data-science-pour-la-connaissance-client/. Added 0 new links.
+2024-01-31 15:59:21,249 - INFO - [Thread 5/5] Downloading HTML from https://ensai.fr/bancassurance-le-boom-de-la-data-profite-aux-ensaiens/.
+2024-01-31 15:59:21,250 - INFO - [Thread 5/5] Successfully downloaded HTML/XML from https://ensai.fr/bancassurance-le-boom-de-la-data-profite-aux-ensaiens/. Added 0 new links.
+2024-01-31 15:59:21,253 - INFO - [Thread 4/5] Downloading HTML from https://ensai.fr/programmes-ingenieur-et-statisticien-public/.
+2024-01-31 15:59:21,254 - INFO - [Thread 4/5] Successfully downloaded HTML/XML from https://ensai.fr/programmes-ingenieur-et-statisticien-public/. Added 0 new links.
+2024-01-31 15:59:21,291 - INFO - [Thread 2/5] Downloading HTML from https://ensai.fr/prix-meilleur-projet-tutore-sfds/.
+2024-01-31 15:59:21,291 - INFO - [Thread 2/5] Successfully downloaded HTML/XML from https://ensai.fr/prix-meilleur-projet-tutore-sfds/. Added 0 new links.
+2024-01-31 15:59:21,291 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:59:26,299 - INFO - Starting 5 thread(s)...
+2024-01-31 15:59:26,301 - INFO - [Thread 1/5] Checking if https://ensai.fr/ensai-biostatistique/ can be crawled.
+2024-01-31 15:59:26,302 - INFO - [Thread 2/5] Checking if https://ensai.fr/point-covid-19/ can be crawled.
+2024-01-31 15:59:26,304 - INFO - [Thread 3/5] Checking if https://ensai.fr/3-minutes-au-coeur-de-lensai/ can be crawled.
+2024-01-31 15:59:26,310 - INFO - [Thread 4/5] Checking if https://ensai.fr/data-challenge-yves-rocher/ can be crawled.
+2024-01-31 15:59:26,316 - INFO - [Thread 5/5] Checking if https://ensai.fr/ines-francaise-deutsche-bundesbank/ can be crawled.
+2024-01-31 15:59:27,053 - INFO - [Thread 4/5] Downloading HTML from https://ensai.fr/data-challenge-yves-rocher/.
+2024-01-31 15:59:27,055 - INFO - [Thread 4/5] Successfully downloaded HTML/XML from https://ensai.fr/data-challenge-yves-rocher/. Added 0 new links.
+2024-01-31 15:59:27,067 - INFO - [Thread 2/5] Downloading HTML from https://ensai.fr/point-covid-19/.
+2024-01-31 15:59:27,068 - INFO - [Thread 2/5] Successfully downloaded HTML/XML from https://ensai.fr/point-covid-19/. Added 0 new links.
+2024-01-31 15:59:27,084 - INFO - [Thread 3/5] Downloading HTML from https://ensai.fr/3-minutes-au-coeur-de-lensai/.
+2024-01-31 15:59:27,085 - INFO - [Thread 3/5] Successfully downloaded HTML/XML from https://ensai.fr/3-minutes-au-coeur-de-lensai/. Added 0 new links.
+2024-01-31 15:59:27,095 - INFO - [Thread 5/5] Downloading HTML from https://ensai.fr/ines-francaise-deutsche-bundesbank/.
+2024-01-31 15:59:27,096 - INFO - [Thread 5/5] Successfully downloaded HTML/XML from https://ensai.fr/ines-francaise-deutsche-bundesbank/. Added 0 new links.
+2024-01-31 15:59:27,102 - INFO - [Thread 1/5] Downloading HTML from https://ensai.fr/ensai-biostatistique/.
+2024-01-31 15:59:27,103 - INFO - [Thread 1/5] Successfully downloaded HTML/XML from https://ensai.fr/ensai-biostatistique/. Added 0 new links.
+2024-01-31 15:59:27,103 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:59:32,106 - INFO - Starting 5 thread(s)...
+2024-01-31 15:59:32,107 - INFO - [Thread 1/5] Checking if https://ensai.fr/bienvenue-dans-le-service-statistique-public/ can be crawled.
+2024-01-31 15:59:32,108 - INFO - [Thread 2/5] Checking if https://ensai.fr/mastere-specialise-data-science-ensai/ can be crawled.
+2024-01-31 15:59:32,110 - INFO - [Thread 3/5] Checking if https://ensai.fr/en/stephane-auray-nber/ can be crawled.
+2024-01-31 15:59:32,112 - INFO - [Thread 4/5] Checking if https://ensai.fr/data-science-learning-analytics/ can be crawled.
+2024-01-31 15:59:32,117 - INFO - [Thread 5/5] Checking if https://ensai.fr/c-cube-un-outil-inter-etablissements-pour-renforcer-la-formation-la-recherche-et-linnovation-en-cybersecurite/ can be crawled.
+2024-01-31 15:59:32,834 - INFO - [Thread 2/5] Downloading HTML from https://ensai.fr/mastere-specialise-data-science-ensai/.
+2024-01-31 15:59:32,834 - INFO - [Thread 2/5] Successfully downloaded HTML/XML from https://ensai.fr/mastere-specialise-data-science-ensai/. Added 0 new links.
+2024-01-31 15:59:32,849 - INFO - [Thread 3/5] Downloading HTML from https://ensai.fr/en/stephane-auray-nber/.
+2024-01-31 15:59:32,849 - INFO - [Thread 3/5] Successfully downloaded HTML/XML from https://ensai.fr/en/stephane-auray-nber/. Added 0 new links.
+2024-01-31 15:59:32,865 - INFO - [Thread 5/5] Downloading HTML from https://ensai.fr/c-cube-un-outil-inter-etablissements-pour-renforcer-la-formation-la-recherche-et-linnovation-en-cybersecurite/.
+2024-01-31 15:59:32,865 - INFO - [Thread 5/5] Successfully downloaded HTML/XML from https://ensai.fr/c-cube-un-outil-inter-etablissements-pour-renforcer-la-formation-la-recherche-et-linnovation-en-cybersecurite/. Added 0 new links.
+2024-01-31 15:59:32,912 - INFO - [Thread 4/5] Downloading HTML from https://ensai.fr/data-science-learning-analytics/.
+2024-01-31 15:59:32,914 - INFO - [Thread 4/5] Successfully downloaded HTML/XML from https://ensai.fr/data-science-learning-analytics/. Added 0 new links.
+2024-01-31 15:59:32,917 - INFO - [Thread 1/5] Downloading HTML from https://ensai.fr/bienvenue-dans-le-service-statistique-public/.
+2024-01-31 15:59:32,918 - INFO - [Thread 1/5] Successfully downloaded HTML/XML from https://ensai.fr/bienvenue-dans-le-service-statistique-public/. Added 0 new links.
+2024-01-31 15:59:32,918 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:59:37,926 - INFO - Starting 4 thread(s)...
+2024-01-31 15:59:37,926 - INFO - [Thread 1/4] Checking if https://ensai.fr/sante-data-science-projets-statistiques/ can be crawled.
+2024-01-31 15:59:37,926 - INFO - [Thread 2/4] Checking if https://ensai.fr/florian-cycliste-data-scientist/ can be crawled.
+2024-01-31 15:59:37,926 - INFO - [Thread 3/4] Checking if https://ensai.fr/en/two-students-best-emos-theses/ can be crawled.
+2024-01-31 15:59:37,941 - INFO - [Thread 4/4] Checking if https://ensai.fr/en/pedagogy-article-ronan-le-saout/ can be crawled.
+2024-01-31 15:59:38,651 - INFO - [Thread 3/4] Downloading HTML from https://ensai.fr/en/two-students-best-emos-theses/.
+2024-01-31 15:59:38,652 - INFO - [Thread 3/4] Successfully downloaded HTML/XML from https://ensai.fr/en/two-students-best-emos-theses/. Added 0 new links.
+2024-01-31 15:59:38,655 - INFO - [Thread 4/4] Downloading HTML from https://ensai.fr/en/pedagogy-article-ronan-le-saout/.
+2024-01-31 15:59:38,656 - INFO - [Thread 4/4] Successfully downloaded HTML/XML from https://ensai.fr/en/pedagogy-article-ronan-le-saout/. Added 0 new links.
+2024-01-31 15:59:38,683 - INFO - [Thread 1/4] Downloading HTML from https://ensai.fr/sante-data-science-projets-statistiques/.
+2024-01-31 15:59:38,684 - INFO - [Thread 1/4] Successfully downloaded HTML/XML from https://ensai.fr/sante-data-science-projets-statistiques/. Added 0 new links.
+2024-01-31 15:59:38,731 - INFO - [Thread 2/4] Downloading HTML from https://ensai.fr/florian-cycliste-data-scientist/.
+2024-01-31 15:59:38,731 - INFO - [Thread 2/4] Successfully downloaded HTML/XML from https://ensai.fr/florian-cycliste-data-scientist/. Added 0 new links.
+2024-01-31 15:59:38,731 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:59:43,734 - INFO - Successfully saved 50 URLs to output/visited_urls.txt.
+2024-01-31 15:59:44,226 - INFO - Successfully saved 50 URLs to output/visited_urls.db.
