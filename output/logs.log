@@ -1,0 +1,57 @@
+2024-01-31 15:28:12,417 - INFO - Initialized WebCrawler with base URL https://ensai.fr and 10 max URLs.
+2024-01-31 15:28:12,418 - INFO - Starting 1 thread(s)...
+2024-01-31 15:28:12,419 - INFO - [Thread 1/1] Checking if https://ensai.fr can be crawled.
+2024-01-31 15:28:12,634 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/sitemap_index.xml. Parsing sitemap...
+2024-01-31 15:28:13,090 - INFO - [Thread 1/1] Found 7 URLs in the sitemap https://ensai.fr/sitemap_index.xml.
+2024-01-31 15:28:13,090 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/post-sitemap.xml. Parsing sitemap...
+2024-01-31 15:28:13,955 - INFO - [Thread 1/1] Found 302 URLs in the sitemap https://ensai.fr/post-sitemap.xml.
+2024-01-31 15:28:13,955 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/page-sitemap.xml. Parsing sitemap...
+2024-01-31 15:28:14,591 - INFO - [Thread 1/1] Found 191 URLs in the sitemap https://ensai.fr/page-sitemap.xml.
+2024-01-31 15:28:14,591 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/partenaire-sitemap.xml. Parsing sitemap...
+2024-01-31 15:28:14,904 - INFO - [Thread 1/1] Found 88 URLs in the sitemap https://ensai.fr/partenaire-sitemap.xml.
+2024-01-31 15:28:14,904 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/equipe-sitemap.xml. Parsing sitemap...
+2024-01-31 15:28:15,698 - INFO - [Thread 1/1] Found 85 URLs in the sitemap https://ensai.fr/equipe-sitemap.xml.
+2024-01-31 15:28:15,698 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/faq-sitemap.xml. Parsing sitemap...
+2024-01-31 15:28:16,170 - INFO - [Thread 1/1] Found 50 URLs in the sitemap https://ensai.fr/faq-sitemap.xml.
+2024-01-31 15:28:16,170 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/colloque-sitemap.xml. Parsing sitemap...
+2024-01-31 15:28:16,420 - INFO - [Thread 1/1] Found 6 URLs in the sitemap https://ensai.fr/colloque-sitemap.xml.
+2024-01-31 15:28:16,420 - INFO - [Thread 1/1] Found sitemap https://ensai.fr/category-sitemap.xml. Parsing sitemap...
+2024-01-31 15:28:17,000 - INFO - [Thread 1/1] Found 10 URLs in the sitemap https://ensai.fr/category-sitemap.xml.
+2024-01-31 15:28:17,771 - INFO - [Thread 1/1] Downloading HTML from https://ensai.fr.
+2024-01-31 15:28:17,864 - INFO - [Thread 1/1] Successfully downloaded HTML/XML from https://ensai.fr. Added 59 new links.
+2024-01-31 15:28:17,864 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:28:20,877 - INFO - Starting 3 thread(s)...
+2024-01-31 15:28:20,879 - INFO - [Thread 1/3] Checking if https://ensai.fr/etudier-espagne-erasmus-madrid/ can be crawled.
+2024-01-31 15:28:20,879 - INFO - [Thread 2/3] Checking if https://ensai.fr/double-diplome-universite-rome-sapienza/ can be crawled.
+2024-01-31 15:28:20,879 - INFO - [Thread 3/3] Checking if https://ensai.fr/international-label-campus-france/ can be crawled.
+2024-01-31 15:28:21,538 - INFO - [Thread 2/3] Downloading HTML from https://ensai.fr/double-diplome-universite-rome-sapienza/.
+2024-01-31 15:28:21,600 - INFO - [Thread 2/3] Successfully downloaded HTML/XML from https://ensai.fr/double-diplome-universite-rome-sapienza/. Added 12 new links.
+2024-01-31 15:28:21,600 - INFO - [Thread 3/3] Downloading HTML from https://ensai.fr/international-label-campus-france/.
+2024-01-31 15:28:21,663 - INFO - [Thread 3/3] Successfully downloaded HTML/XML from https://ensai.fr/international-label-campus-france/. Added 7 new links.
+2024-01-31 15:28:21,663 - INFO - [Thread 1/3] Downloading HTML from https://ensai.fr/etudier-espagne-erasmus-madrid/.
+2024-01-31 15:28:21,709 - INFO - [Thread 1/3] Successfully downloaded HTML/XML from https://ensai.fr/etudier-espagne-erasmus-madrid/. Added 7 new links.
+2024-01-31 15:28:21,709 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:28:24,711 - INFO - Starting 3 thread(s)...
+2024-01-31 15:28:24,711 - INFO - [Thread 1/3] Checking if https://ensai.fr/le-campus-un-ecrin-de-nature/ can be crawled.
+2024-01-31 15:28:24,711 - INFO - [Thread 2/3] Checking if https://ensai.fr/faculty-positions-at-ensai/ can be crawled.
+2024-01-31 15:28:24,711 - INFO - [Thread 3/3] Checking if https://ensai.fr/billet-pourquoi-linflation-europeenne-est-elle-si-faible/ can be crawled.
+2024-01-31 15:28:25,370 - INFO - [Thread 3/3] Downloading HTML from https://ensai.fr/billet-pourquoi-linflation-europeenne-est-elle-si-faible/.
+2024-01-31 15:28:25,370 - INFO - [Thread 2/3] Downloading HTML from https://ensai.fr/faculty-positions-at-ensai/.
+2024-01-31 15:28:25,448 - INFO - [Thread 3/3] Successfully downloaded HTML/XML from https://ensai.fr/billet-pourquoi-linflation-europeenne-est-elle-si-faible/. Added 10 new links.
+2024-01-31 15:28:25,480 - INFO - [Thread 2/3] Successfully downloaded HTML/XML from https://ensai.fr/faculty-positions-at-ensai/. Added 8 new links.
+2024-01-31 15:28:25,480 - INFO - [Thread 1/3] Downloading HTML from https://ensai.fr/le-campus-un-ecrin-de-nature/.
+2024-01-31 15:28:25,526 - INFO - [Thread 1/3] Successfully downloaded HTML/XML from https://ensai.fr/le-campus-un-ecrin-de-nature/. Added 13 new links.
+2024-01-31 15:28:25,526 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:28:28,537 - INFO - Starting 3 thread(s)...
+2024-01-31 15:28:28,538 - INFO - [Thread 1/3] Checking if https://ensai.fr/guerres-commerciales-le-billet-economique-de-stephane-auray-et-aurelien-eyquem/ can be crawled.
+2024-01-31 15:28:28,540 - INFO - [Thread 2/3] Checking if https://ensai.fr/position-in-applied-econometrics/ can be crawled.
+2024-01-31 15:28:28,542 - INFO - [Thread 3/3] Checking if https://ensai.fr/position-in-computer-science-at-ensai/ can be crawled.
+2024-01-31 15:28:29,268 - INFO - [Thread 1/3] Downloading HTML from https://ensai.fr/guerres-commerciales-le-billet-economique-de-stephane-auray-et-aurelien-eyquem/.
+2024-01-31 15:28:29,358 - INFO - [Thread 2/3] Downloading HTML from https://ensai.fr/position-in-applied-econometrics/.
+2024-01-31 15:28:29,465 - INFO - [Thread 1/3] Successfully downloaded HTML/XML from https://ensai.fr/guerres-commerciales-le-billet-economique-de-stephane-auray-et-aurelien-eyquem/. Added 6 new links.
+2024-01-31 15:28:29,495 - INFO - [Thread 2/3] Successfully downloaded HTML/XML from https://ensai.fr/position-in-applied-econometrics/. Added 5 new links.
+2024-01-31 15:28:29,501 - INFO - [Thread 3/3] Downloading HTML from https://ensai.fr/position-in-computer-science-at-ensai/.
+2024-01-31 15:28:29,627 - INFO - [Thread 3/3] Successfully downloaded HTML/XML from https://ensai.fr/position-in-computer-science-at-ensai/. Added 5 new links.
+2024-01-31 15:28:29,629 - INFO - Waiting for 3 seconds to respect the politeness policy...
+2024-01-31 15:28:32,633 - INFO - Successfully saved 10 URLs to output/visited_urls.txt.
+2024-01-31 15:28:32,743 - INFO - Successfully saved 10 URLs to output/visited_urls.db.
