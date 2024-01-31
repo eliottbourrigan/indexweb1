@@ -9,6 +9,7 @@ This project implements a web crawler in Python. The crawler downloads pages fro
 - **Sitemap Analysis**: Attempts to read the _sitemap.xml_ file for more efficient URL discovery.
 - **Crawler Politeness**: Waits for a defined time between requests to avoid overloading web servers.
 - **Data Storage**: Records visited URLs and their visit dates in an SQLite database.
+- **Detailed Logs**: Records detailed report in _output/logs.log_.
 
 ## Project Structure
 The project directory is organized as follows:
